@@ -1,6 +1,6 @@
 package chapter_8;
 
-//Method 1 : HashTable				O(n) space, O(n) time
+//Method 1 : HashTable			O(n) space, O(n) time
 //Method 2 : naive two loops		O(1) space, O(n2) time
 
 public class TestCycle {
