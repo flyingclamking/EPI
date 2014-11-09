@@ -1,8 +1,9 @@
 package chapter_8;
 
 //Method 1 : HashTable			O(n) space, O(n) time
-//Method 2 : naive two loops		O(1) space, O(n2) time
+//Method 2 : naive two loops		O(1) space, O(n^2) time
 
+//Floyd's cycle-finding algorithm	O(1) space, O(n) time
 public class TestCycle {
 	
 	public static ListNode testCycle(ListNode head) {
